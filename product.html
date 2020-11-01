@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style_pages.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <title>Car rental</title>
+  </head>
+  <body>
+    <header class="header_container">
+      <div class="menu">
+        <p class="logo">RentaCAR</p>
+
+        <div class="menu_links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="cars.html">Cars</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h4>Mazda rx7</h4>
+      <div class="data_grid">
+        <img class="car_img" src="car.png" />
+        <div class="car_data_product">
+          <p class="product_text">
+            <span class="black">Year: </span>2019<br />
+            <span class="black">Fuel: </span>9 l/100km<br />
+            <span class="black">Price: </span>30 $/day<br />
+            <span class="black">Price per week:<br /></span>22 $/day
+          </p>
+          <button id="productButton" title="Add to Cart" class="product_btn">
+            Add to Cart
+          </button>
+          <p class="product_btn_msg" id="successMessage">
+            You have successfully rented the car!
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>&copy; RentaCAR 2013</footer>
+    <script src="main.js"></script>
+  </body>
+</html>

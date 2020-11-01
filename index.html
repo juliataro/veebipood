@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css">
+
+    <title>Car rental</title>
+  </head>
+
+  <body>
+    <section class="body_container">
+
+      <!---MENU--->
+
+      <div class="menu">
+        
+        <div class="logo_svg">
+          <p class="logo">RentaCAR</p>
+            <div class="icon_car">
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 488.001 488.001" fill="white"
+                 width="48px"
+                 height="48px"style="enable-background:new 0 0 488.001 488.001;" xml:space="preserve">
+                     <path d="M462.6,214.404l-39.2-17.9l-34.6-55.2c-10-16-27.6-25.7-46.5-25.6H194.9c-17.1,0-33.3,7.9-43.7,21.5l-44.7,58.5
+                       l-74.5,20.4c-18.9,5.2-32,22.5-32,42.1v28.5c0,24.1,19.2,44,43.3,44h6.4c7.7,29.7,38,47.5,67.7,39.8c19.5-5.1,34.8-20.3,39.8-39.8
+                             h168c7.7,29.7,38,47.5,67.7,39.8c19.5-5.1,34.8-20.3,39.8-39.8h12c24.1,0,43.3-19.9,43.3-44v-32.5
+                             C488.1,237.104,478.1,221.504,462.6,214.404z M103.4,352.104c-19.6,0-35.5-15.9-35.5-35.5c0-19.6,15.9-35.5,35.5-35.5
+                             c19.6,0,35.5,15.9,35.5,35.5C139,336.104,123.1,352.004,103.4,352.104z M378.9,352.104c-19.6,0-35.5-15.9-35.5-35.5
+                             c0-19.6,15.9-35.5,35.5-35.5s35.5,15.9,35.5,35.5C414.5,336.104,398.6,352.004,378.9,352.104z M444.7,310.704h-10.6
+                             c-3.3-30.5-30.8-52.5-61.3-49.1c-25.9,2.8-46.3,23.3-49.1,49.1H158.6c-3.3-30.5-30.8-52.5-61.3-49.1
+                            c-25.9,2.8-46.3,23.3-49.1,49.1h-5c-13.1,0-23.3-10.9-23.3-24v-28.5c-0.1-10.7,7-20,17.3-22.9l77.9-21.3c2.1-0.6,4-1.8,5.3-3.6
+                             l46.6-61.1c6.7-8.6,17-13.6,27.9-13.6h147.4c12-0.1,23.3,6,29.6,16.2l36.2,57.8c1,1.7,2.6,3,4.3,3.8l41.8,19.1
+                             c8.4,3.9,13.8,12.3,13.7,21.6v32.5h0.1C468,299.804,457.8,310.704,444.7,310.704z"/></svg>
+                            </div>
+        </div>
+
+        <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle">
+            <label for="hamburger-toggle" class="hamburger-icon">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </label>
+
+
+
+            
+
+            
+
+        <div class="menu_links">
+          <ul>
+            <li><a class="nav_item--active" href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="cars.html">Cars</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <header class="header_container">
+
+        <!---header-->
+                
+        <div class="header_slogan">
+          <h1 id="header_slogan">
+            NEED to
+            <span>rent a car?</span>
+          </h1>
+          <div class="flex">
+            <h4>Book a car!</h4>
+            <button
+            onclick="location.href='product.html';"
+            class="gallery_button"
+          >
+            Book!
+          </button>
+          </div>
+           </header>   
+         </div>  
+    </section>
+
+    <!---MAIN-->
+
+    <section class="main_container">
+      <div class="about_content">
+         <h3>Watch our cars.</h5>
+          <div class="all_text">
+                 <p>
+            We let you stay our car at any of our offices! 
+              </p>
+         </div>
+      </div>
+
+         <!---GALLERY-->
+
+         <div class="grid_container">
+            <div class="card">
+          <img class="car_img" src="car.png">
+          <div class="car_body">
+            <h5 class="car_header">Mazda rx7</h5>
+             <ul class="car_data">
+                <li>Year: 2019</li>
+                <li>Fuel: 9 l/100km</li>
+                <li>Price: 30 $/day</li>
+              </ul>
+           </div>
+           <button
+           onclick="location.href='product.html';"
+           class="gallery_button"
+         >
+           Book!
+         </button>
+       </div>
+<!--2-->
+         <div class="card">
+          <img class="car_img" src="car.png">
+          <div class="car_body">
+            <h5 class="car_header">Mazda 3</h5>
+             <ul class="car_data">
+                <li>Year: 2019</li>
+                <li>Fuel: 9 l/100km</li>
+                <li>Price: 30 $/day</li>
+              </ul>
+           </div>
+        <button
+            onclick="location.href='product.html';"
+            class="gallery_button"
+          >
+            Book!
+          </button>
+       </div>
+<!--3-->
+       <div class="card">
+        <img class="car_img" src="car.png">
+        <div class="car_body">
+          <h5 class="car_header">Volkswagen Passat</h5>
+           <ul class="car_data">
+              <li>Year: 2019</li>
+              <li>Fuel: 10 l/100km</li>
+              <li>Price: 35 $/day</li>
+            </ul>
+         </div>
+      <button
+            onclick="location.href='product.html';"
+            class="gallery_button"
+          >
+            Book!
+          </button>
+     </div>
+     <!--4-->
+
+     <div class="card">
+      <img class="car_img" src="car.png">
+      <div class="car_body">
+        <h5 class="car_header">Peugeot 508 SW</h5>
+         <ul class="car_data">
+            <li>Year: 2020</li>
+            <li>Fuel: 7 l/100km</li>
+            <li>Price: 37 $/day</li>
+          </ul>
+       </div>
+    <button
+            onclick="location.href='product.html';"
+            class="gallery_button"
+          >
+            Book!
+          </button>
+   </div>
+
+   <!--5-->
+
+   <div class="card">
+    <img class="car_img" src="car.png">
+    <div class="car_body">
+      <h5 class="car_header">Volkswagen 789</h5>
+       <ul class="car_data">
+          <li>Year: 2018</li>
+          <li>Fuel: 9 l/100km</li>
+          <li>Price: 35 $/day</li>
+        </ul>
+     </div>
+  <button
+            onclick="location.href='product.html';"
+            class="gallery_button"
+          >
+            Book!
+          </button>
+ </div>
+
+ <!--6-->
+
+ <div class="card">
+  <img class="car_img" src="car.png">
+  <div class="car_body">
+    <h5 class="car_header">Volkswagen Passat</h5>
+     <ul class="car_data">
+        <li>Year: 2019</li>
+        <li>Fuel: 6 l/100km</li>
+        <li>Price: 19 $/day</li>
+      </ul>
+   </div>
+<button
+            onclick="location.href='product.html';"
+            class="gallery_button"
+          >
+            Book!
+          </button>
+</div>
+         
+        
+        </div>
+     
+    </section>
+
+    <footer>&copy; RentaCAR 2013</footer>
+    
+  </body>
+</html>
